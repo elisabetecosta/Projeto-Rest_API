@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+/*     align-items: center;
+    margin: 0 auto; */
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+img.logo{
+    padding: 1rem 1rem 1rem 2.5rem;
+    height: 3.3rem;
+}
+
+h1 {
+    padding: 2.7rem 0 3rem 0;
+}
+
+h2 {
+    padding: 2rem 0 1rem 0;
+}
+
+nav.navbar {
+    width: 100%;
+    flex-basis: 5.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #044c6b;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    height: 3rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3881ff;
+}
+
+li a:visited {
+    background-color: #044c6b;
+}
+
+.table {
+    width: 50rem;
+    box-shadow: 0 0 10px #e0e4ec;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.table thead th {
+    text-align: left;
+    background-color: #044c6b;
+    color: #ffffff;
+}
+.table thead th:first-child{
+    text-align: center;
+    width: 14rem;
+}
+
+
+.table td,
+.table th {
+    padding: 10px 20px;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #eeeeee;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #044c6b;
+}
+
+input {
+    margin-right: 1.6rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #a5b6be;
+}
+
+input[type="checkbox"]{
+    height: 1rem;
+    width: 1rem;
+    margin: 0.675rem 2rem 0 0.2rem;
+    position: absolute;
+}
+
+button{
+    cursor: pointer;
+    padding: 0.6rem 1rem;
+    color: #044c6b;
+    font-weight: 600;
+    background-color: #e0e4ec;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #c6d4da;
+    margin-left: 3.2rem ;
+    font-size: inherit;
+}
+button:hover{
+    color: #e0e4ec;
+    background-color: #044c6b;
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    align-items: stretch;
+}
+nav.menu {
+    display: flex;
+    min-width: 12rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 14%;
+    /* align-self: auto; */
+    background-color: #e0e4ec;
+    align-items: stretch;
+}
+
+nav.menu a:first-child{
+    margin-top: 1.8rem;
+}
+
+nav.menu a{
+    color: #044c6b;
+    font-size: 1.2rem;
+    height: 2rem;
+    text-decoration: none;
+    padding: 1rem 0 1rem 2rem;
+}
+nav.menu a:hover{
+    background-color: #c6ccd7;
+}
+
+i.fa-solid{
+    width: 40px;
+    padding-right: 0.8rem;
+    font-size:30px;
+}
+
+main{
+    margin-left: 3.9rem;
+    flex-basis: 86%;
+    align-self: auto;
+}
+
+.icon {
+    color: #044c6b;
+}
+
+.card {
+    display: inline-table;
+    margin-right: 3rem;
+    width: 16rem;
+    box-shadow: 0 4px 8px 0 #00000033;
+    transition: 0.3s;
+}
+
+.card img{
+    width: 16rem;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 #00000033;
+}
+
+.containercard {
+    margin-top: 0.3rem;
+    margin-bottom: 0.6rem;
+    padding: 2px 16px;
+}
+
+.checkbox{
+    align-items: center;
+}
