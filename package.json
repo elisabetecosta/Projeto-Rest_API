@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js localhost 3000"
+    "start": "node index"
   },
   "keywords": [],
-  "author": "Ana Paula Almeida",
+  "author": "Elisabete Costa",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
